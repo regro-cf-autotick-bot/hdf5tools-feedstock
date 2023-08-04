@@ -1,5 +1,5 @@
 {% set name = "hdf5tools" %}
-{% set version = "0.1.13" %}
+{% set version = "0.1.14" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hdf5tools-{{ version }}.tar.gz
-  sha256: 43c07e727fe349b396adc0d517ba3867a119aa0798747cc8b3d302e4624266df
+  sha256: 252b4e0b006a0f68697238bd1727a549590786fc008d0ac8ae21636da47b2e7d
 
 build:
   noarch: python
@@ -23,7 +23,6 @@ requirements:
     - xarray >=2022.03.0
     - h5py >=3.6.0
     - hdf5plugin >=3.3.1
-    - h5netcdf
     - cftime
 
 test:
@@ -35,7 +34,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/tethys-ts/hdf5-tools
+  home: https://github.com/mullenkamp/hdf5-tools
   summary: Python hdf5 tools
   license: Apache-2.0
   license_file: LICENSE
