@@ -1,11 +1,11 @@
-About hdf5tools
-===============
-
-Home: https://github.com/tethys-ts/hdf5-tools
-
-Package license: Apache-2.0
+About hdf5tools-feedstock
+=========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdf5tools-feedstock/blob/main/LICENSE.txt)
+
+Home: https://github.com/mullenkamp/hdf5-tools
+
+Package license: Apache-2.0
 
 Summary: Python hdf5 tools
 
