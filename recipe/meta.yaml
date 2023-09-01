@@ -22,6 +22,7 @@ requirements:
   host:
     - python >=3.8
     - pip
+    - hatchling
   run:
     - python >=3.8
     - xarray >=2022.03.0
